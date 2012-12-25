@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "releases": [
+        {
+            "version": "1.0.1",
+            "manifest": "#version:1.0.1",
+            "release_notes": "app://CHANGELOG.txt",
+            "update_url": "https://github.com/nunofgs/MrTickTock/zipball/master"
+        }
+    ]
+}
