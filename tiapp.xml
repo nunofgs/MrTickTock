@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <sdk-version>2.1.2.GA</sdk-version>
+
+    <guid>y7Lg0uAFTP6D2VnzjBYwKExBllX9OQru</guid>
+<description>A small application to manage your MrTickTock tasks.</description>
+<id>com.nunosousa.mrticktock</id>
+<name>MrTickTock</name>
+<version>1.0.1</version>
+<publisher>Nuno Sousa</publisher>
+<url>http://mrticktock.com</url>
+<icon>default_app_logo.png</icon>
+<copyright>2012 by Nuno Sousa</copyright>
+
+    <!-- Desktop -->
+    <window>
+        <title>MrTickTock</title>
+        <url>app://ui/desktop/index.html</url>
+        <distribution-url>nunofgs.github.com/MrTickTock</distribution-url>
+        <width>280</width>
+        <height>190</height>
+        <fullscreen>false</fullscreen>
+        <resizable>false</resizable>
+        <maximizable>false</maximizable>
+        <minimizable>false</minimizable>
+        <closeable>false</closeable>
+        <visible>false</visible>
+        <chrome scrollbars="true">true</chrome>
+    </window>
+
+    <!-- Mobile -->
+    <!-- <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>899466c2-637f-48f1-b420-d2ea8a065788</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules> -->
+</ti:app>

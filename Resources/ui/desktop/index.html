@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/desktop.css" />
+        <script data-main="/app" src="/js/libs/require.js"></script>
+    </head>
+    <body style="background: transparent;">
+
+        <div id="login">
+        </div>
+
+        <script type="text/html" id="template-login">
+            <form>
+                <label for="email">Email</label><input id="email" type="text" value="<%= email %>" /><br />
+                <label for="password">Password</label><input id="password" type="password" value="<%= password %>" /><br />
+
+                <p>
+                    <input name="submit" type="submit" value="Log in" />
+                </p>
+            </form>
+
+        </script>
+
+    </body>
+</html>

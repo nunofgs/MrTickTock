@@ -1,0 +1,22 @@
+form {
+    margin: 0;
+    padding: 0;
+}
+label {
+    display: block;
+    padding: 14px 0 3px 0;
+}
+input {
+    width: 250px;
+    height: 21px;
+    padding: 3px;
+}
+input[type="text"], input[type="password"] {
+    color: #1A1A1A;
+    border: 1px solid #999;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+p {
+    text-align: center;
+}
